@@ -26,5 +26,5 @@ INSERT INTO `tovar` (`name`, `manufacture`, `description`, `coun`) VALUES
 	
 #Задание 3
 
-SELECT * FROM `tovar` WHERE `name[1]`=k AND `coun`>300 AND `coun`<1000;
+SELECT * FROM `tovar` WHERE `coun`>300 AND `coun`<1000;
 
